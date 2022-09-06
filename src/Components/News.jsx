@@ -8,7 +8,7 @@ import { useGetCryptosQuery } from '../Services/cryptoApi';
 const {Text, Title} = Typography;
 const {Option} = Select;
 
-const demoImage = "https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=News"
+const demoImage = "https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=News";
 
 const News = ({simplified}) => {
   const [newsCategory, setNewsCategory] = useState('Cryptocurrency');
